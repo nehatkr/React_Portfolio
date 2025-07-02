@@ -62,8 +62,7 @@ const About = () => {
             <p className="text-lg text-gray-600 leading-relaxed">
               Hi, I'm <span className="font-semibold text-blue-600">Neha Kumari</span>, a passionate 
               Frontend Developer and UI/UX Designer. I recently graduated in 2025 with a B.Tech in 
-              Computer Science Engineering from Dr. APJ Abdul Kalam Women's Institute of Technology 
-              with an impressive 8.66 CGPA.
+              Computer Science Engineering from Dr. APJ Abdul Kalam Women's Institute of Technology.
             </p>
             
             <p className="text-lg text-gray-600 leading-relaxed">

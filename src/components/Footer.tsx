@@ -17,7 +17,7 @@ const Footer = () => {
             </p>
             <div className="flex items-center space-x-2 text-gray-400">
               <GraduationCap size={16} />
-              <span className="text-sm">B.Tech CSE Graduate (2025) • 8.66 CGPA</span>
+              <span className="text-sm">B.Tech CSE Graduate (2025)</span>
             </div>
           </div>
 
