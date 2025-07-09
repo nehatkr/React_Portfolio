@@ -126,7 +126,7 @@ const Projects = () => {
       detailedDescription: 'An intelligent movie discovery platform that leverages AI to provide personalized recommendations. Built with modern React architecture and integrated with ChatGPT for natural language movie queries.',
       image: 'https://images.pexels.com/photos/7991579/pexels-photo-7991579.jpeg?auto=compress&cs=tinysrgb&w=800',
       technologies: ['React.js', 'Tailwind CSS', 'Firebase', 'ChatGPT API', 'Redux'],
-      liveUrl: '#',
+      liveUrl: 'https://netflixgpt-rho-one.vercel.app/',
       githubUrl: 'https://github.com/nehatkr/netflix-gpt',
       status: 'COMPLETED',
       date: 'DEC 2024',
