@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
-import { ExternalLink, Github, Calendar, Search, Briefcase, Scissors, Film, X, CheckCircle, Clock, Star, Code, Database, Zap } from 'lucide-react';
+import { ExternalLink, Github, Calendar, Search, Briefcase, Scissors, Film, X, CheckCircle, Clock, Star, Code, Database, Zap, BookOpen } from 'lucide-react';
 
 const Projects = () => {
   const [selectedProject, setSelectedProject] = useState<number | null>(null);
@@ -175,6 +175,63 @@ const Projects = () => {
         'AI Queries Processed': '2,000+',
         'User Engagement': '85%',
         'Search Accuracy': '92%'
+      }
+    },
+    {
+      title: 'StudyStack - Academic Resource Sharing',
+      description: 'Full-stack academic resource-sharing platform enabling 100+ students to upload, search, and download notes, PYQs, and syllabus documents with role-based authentication and real-time features.',
+      detailedDescription: 'StudyStack is a comprehensive academic resource-sharing web application designed to streamline the process of sharing and accessing educational materials. Built with modern web technologies, it provides a secure and efficient platform for students to collaborate and share academic resources.',
+      image: '/Screenshot 2025-08-06 101719.png',
+      technologies: ['React.js', 'Tailwind CSS', 'Firebase Auth', 'Firestore', 'Firebase Storage', 'Vercel'],
+      liveUrl: '#',
+      githubUrl: '#',
+      status: 'COMPLETED',
+      date: 'AUG 2024',
+      icon: <BookOpen className="w-6 h-6" />,
+      features: [
+        'Role-based authentication system',
+        'Document upload and management',
+        'Advanced search and filtering',
+        'Real-time comments and ratings',
+        'Admin dashboard for approvals'
+      ],
+      detailedFeatures: [
+        {
+          title: 'Role-Based Authentication System',
+          description: 'Three-tier user system (Viewer, Contributor, Admin) with Firebase Auth integration, providing secure access control and enhanced security.',
+          icon: <Star className="w-5 h-5" />
+        },
+        {
+          title: 'Contributor Application Workflow',
+          description: 'Modal-based application system with data collection for roll numbers, batch, and semester details, plus admin dashboard for approval management.',
+          icon: <CheckCircle className="w-5 h-5" />
+        },
+        {
+          title: 'Real-time Document Management',
+          description: 'Firebase Cloud Storage and Firestore integration for instant document storage, retrieval, and metadata management with real-time updates.',
+          icon: <Database className="w-5 h-5" />
+        },
+        {
+          title: 'Interactive User Features',
+          description: 'Comment sections, rating systems, and contributor contact information to enhance user engagement and community interaction.',
+          icon: <Zap className="w-5 h-5" />
+        }
+      ],
+      challenges: [
+        'Implementing secure role-based access control with Firebase Auth',
+        'Building efficient search and filter functionality for large document collections',
+        'Creating a seamless contributor approval workflow with real-time updates'
+      ],
+      learnings: [
+        'Advanced Firebase services integration (Auth, Firestore, Storage)',
+        'Role-based access control implementation and security best practices',
+        'Real-time data synchronization and state management'
+      ],
+      metrics: {
+        'Active Users': '100+',
+        'Documents Shared': '500+',
+        'Search Speed': '<5 seconds',
+        'Uptime': '99.9%'
       }
     }
   ];
