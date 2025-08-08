@@ -72,7 +72,7 @@ const Projects = () => {
       liveUrl: '#',
       githubUrl: 'https://github.com/Spark-Mithila/GlowBook',
       status: 'OPEN',
-      date: 'FEB 2025',
+      date: 'PRESENT',
       icon: <Scissors className="w-6 h-6" />,
       features: [
         'Subscription-based pricing plans',
@@ -129,7 +129,7 @@ const Projects = () => {
       liveUrl: 'https://netflixgpt-rho-one.vercel.app/',
       githubUrl: 'https://github.com/nehatkr/netflix-gpt',
       status: 'COMPLETED',
-      date: 'DEC 2024',
+      date: 'JUNE 2024',
       icon: <Film className="w-6 h-6" />,
       features: [
         'AI-powered movie suggestions',
@@ -183,10 +183,10 @@ const Projects = () => {
       detailedDescription: 'StudyStack is a comprehensive academic resource-sharing web application designed to streamline the process of sharing and accessing educational materials. Built with modern web technologies, it provides a secure and efficient platform for students to collaborate and share academic resources.',
       image: '/Screenshot 2025-08-06 101719.png',
       technologies: ['React.js', 'Tailwind CSS', 'Firebase Auth', 'Firestore', 'Firebase Storage', 'Vercel'],
-      liveUrl: '#',
-      githubUrl: '#',
+      liveUrl: 'https://study-stack-major.vercel.app/',
+      githubUrl: 'https://github.com/nehatkr/StudyStack-major-',
       status: 'COMPLETED',
-      date: 'AUG 2024',
+      date: 'JUNE 2025',
       icon: <BookOpen className="w-6 h-6" />,
       features: [
         'Role-based authentication system',
